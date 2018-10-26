@@ -9,7 +9,10 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Assets">
+      <UniqueIdentifier>{cb5b1114-1706-4886-8a05-6f763890e414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
@@ -38,15 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RunAround.rc">
-      <Filter>Resource Files</Filter>
+      <Filter>Assets\Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
-      <Filter>Resource Files</Filter>
+      <Filter>Assets\Resource Files</Filter>
     </Image>
     <Image Include="RunAround.ico">
-      <Filter>Resource Files</Filter>
+      <Filter>Assets\Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\surface.bmp">
+      <Filter>Assets</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>

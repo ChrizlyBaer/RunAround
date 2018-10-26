@@ -165,6 +165,7 @@
     <ResourceCompile Include="RunAround.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\surface.bmp" />
     <Image Include="RunAround.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
